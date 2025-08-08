@@ -1366,8 +1366,6 @@ static void SetSafetyNetProps() {
     InitPropertySet("ro.boot.verifiedbootstate", "green");
     InitPropertySet("ro.boot.veritymode", "enforcing");
     InitPropertySet("ro.build.tags", "release-keys");
-    InitPropertySet("ro.oem_unlock_supported", "0");
-    InitPropertySet("sys.oem_unlock_allowed", "0");
 
 #ifndef ENG_BUILD
     // Spoof non-eng builds (such as userdebug) to user
